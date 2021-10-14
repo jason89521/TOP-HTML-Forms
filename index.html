@@ -6,57 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intuit Accounts - Sign Up</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
 </head>
 
-<body>
-    <section>
-        <div>
-            <div>
+<body style="margin: 0; background-color: #ECEEF1;">
+    <section class="container-col">
+        <div class="nav-container">
+            <div class="container-col nav-col">
                 <span>Already have an Intuit account?</span>
                 <a href="#">I forgot my User ID or Password</a>
             </div>
-            <button>
+            <button class="signup-btn">
+                <i class="fas fa-lock"></i>
                 Sign In
             </button>
         </div>
-        <section>
-            <header>
-                <h1>Intuit</h1>
-                <div>
-                    <a href="#">mint</a>
-                    <a href="#">quickbooks</a>
-                    <a href="#">turbotax</a>
+        <main>
+            <header class="logo-container">
+                <a href="#">Intuit</a>
+                <div class="container-row">
+                    <a href="#" class="logo-link container-row">
+                        <img src="./images/Mint.png">
+                        mint
+                    </a>
+                    <a href="#" class="logo-link container-row">
+                        <img src="./images/quickbooks-1.svg" width="24px" height="24px">
+                        quickbooks
+                    </a>
+                    <a href="#" class="logo-link container-row">
+                        <img src="./images/turbotax.png" width="24px" height="24px">
+                        turbotax
+                    </a>
                 </div>
             </header>
-            <section>
-                <header>
+            <section class="container-col signup-container">
+                <header class="signup-header">
                     <h1>Create an Intuit account</h1>
                     <span>One account for everything Intuit, including Mint.</span>
                     <a href="#">Learn more</a>
                 </header>
-                <form>
+                <form class="container-col">
                     <label for="email">Email address</label>
                     <input type="email" id="email">
                     <label for="phone">Phone (recommended)</label>
                     <input type="tel" id="phone">
                     <label for="password">Password</label>
                     <input type="password" id="password">
-                    <button>Create Account</button>
+                    <button class="signup-btn">
+                        <i class="fas fa-lock"></i>
+                        Create Account
+                    </button>
                 </form>
                 <footer>
-                    <p>By selecting Create Account, you agree to our <a>Terms</a> and have read and acknowledge our
-                        <a>GlobalPrivacy Statement</a>.
+                    <p>By selecting Create Account, you agree to our <a href="#">Terms</a> and
+                        <br>
+                        have read and acknowledge our
+                        <a href="#">GlobalPrivacy Statement</a>.
                     </p>
                 </footer>
                 <div>
-                    Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a href="">Terms of Use</a>.
+                    Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of Use</a>.
                 </div>
             </section>
             <footer>
                 <div>
-                    <a>Legal</a>
-                    <a>Privacy</a>
-                    <a>Security</a>
+                    <a href="#">Legal</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Security</a>
                 </div>
                 <span>
                     © 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
@@ -67,8 +85,8 @@
                     notice.
                 </span>
             </footer>
-        </section>
-        <div>
+        </main>
+        <div class="privacy-settings">
             <a>Privacy Settings</a>
         </div>
     </section>

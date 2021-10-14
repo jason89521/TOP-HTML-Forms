@@ -1,0 +1,172 @@
+body > section {
+    padding: 1em 3em;
+}
+
+a{
+    color: #0077C5;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    gap: 2em;
+}
+
+.container-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-btn{
+    cursor: pointer;
+    outline: none;
+    background-color: #0077C5;
+    color: #ffffff;
+    border: 1px solid #4c4c4c;
+    border-radius: 4px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1em;
+}
+
+.nav-container button{
+    padding: .75em 2em;
+    font-size: 13.5px;
+}
+
+.nav-col{
+    font-size: 12px;
+}
+
+.nav-col > span{
+    color: #505050;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container > a {
+    color: #8d9096;
+    font-size: 36px;
+}
+
+.logo-link {
+    align-items: center;
+    gap: 0.25em;
+    font-size: 18px;
+    color: #8d9096;
+}
+
+.logo-link:not(:last-child) {
+    margin-right: 0.5em;
+}
+
+.signup-container {
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.signup-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.signup-header > h1 {
+    font-size: 24px;
+    color: #393A3D;
+    font-weight: 100;
+}
+
+.signup-header > span {
+    font-size: 14px;
+    color: #393A3D;
+    font-weight: 100;
+}
+
+.signup-header > a{
+    font-weight: 100;
+}
+
+form {
+    padding: 0 5em;
+}
+
+label {
+    color: #404040;
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+input {
+    outline: none;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    padding: 5px 5px;
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+
+input:focus {
+    border: 1px solid #52A8EC;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 8%) inset, 0 0 8px rgb(82 168 236 / 60%);
+}
+
+form > .signup-btn {
+    font-size: 16px;
+    padding: 0.5em;
+}
+
+.signup-container footer {
+    text-align: center;
+    font-size: 14px;
+    color: #505050;
+}
+
+.signup-container > div {
+    padding: 2em;
+    text-align: center;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    color: #c7c7c7;
+}
+
+main > footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > footer * {
+    color: #505050;
+}
+
+main > footer a:not(:last-child){
+    margin-right: 1em;
+}
+
+main > footer a:hover {
+    text-decoration: underline;
+}
+
+.privacy-settings {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    padding: 2em;
+}
